@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(189, 189, 189);
+}
+
+table{
+    display: block;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 50%;
+    word-break:keep-all;
+}
+
+th {
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+#head {
+    font-weight: bold;
+}
+
+.container {
+    padding: 15px;
+}
+
+.mb-3, h4{
+    color: #383838;
+}
+
+.table-container {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    width: 68%;
+    min-width: 48em;
+    border-radius: 10px;
+    border: 1px solid rgb(145, 145, 145);
+    box-shadow: 3px 3px 3px rgb(122, 121, 121);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image:url('person-circle.svg');
+}
